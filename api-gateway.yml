@@ -1,0 +1,4 @@
+server:
+  port: 8080
+gateway:
+  booking-service: ${BOOKING_SERVICE:localhost:8080}  
